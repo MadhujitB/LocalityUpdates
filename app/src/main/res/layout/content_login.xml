@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.example.dada.localityupdate.LoginActivity"
+    >
+    <!--app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:showIn="@layout/activity_login"-->
+
+
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+
+    android:text="@string/login_page_title"
+    android:layout_gravity="center"
+    android:textSize="40sp"
+    android:textColor="@color/colorPrimary"
+    android:textStyle="bold"
+    android:id="@+id/loginText"
+    android:layout_marginTop="65dp"
+    android:layout_alignParentTop="true"
+    android:layout_centerHorizontal="true" />
+
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/activity_registration_username_hint"
+        android:textColor="@color/colorPrimary"
+        android:textColorHint="@color/colorPrimary"
+        android:id="@+id/usernameLoginActivity"
+        android:layout_below="@+id/loginText"
+        android:layout_marginTop="70dp" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/activity_registration_password_hint"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/colorPrimary"
+        android:textColorHint="@color/colorPrimary"
+        android:inputType="textPassword"
+        android:id="@+id/passwordLoginActivity"
+        android:layout_below="@+id/usernameLoginActivity"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/activity_login_button_login"
+        android:textColor="#fff"
+        android:background="@color/colorPrimary"
+        android:textAllCaps="false"
+
+        android:id="@+id/loginButton"
+        android:layout_marginTop="73dp"
+        android:layout_below="@+id/passwordLoginActivity"
+        android:layout_alignLeft="@+id/loginText"
+        android:layout_alignStart="@+id/loginText" />
+    <!--<TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:text="@string/activity_login_middle_text"
+        android:textColor="@color/colorPrimary"
+        android:gravity="center_horizontal"
+        android:layout_below="@+id/loginButton"
+        android:layout_marginTop="20dp"
+        android:id="@+id/textView2" />-->
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#fff"
+        android:background="@color/colorPrimary"
+        android:text="@string/activity_login_button_create_acc"
+        android:textAllCaps="false"
+        android:id="@+id/createAccButton"
+        android:layout_alignTop="@+id/loginButton"
+        android:layout_alignRight="@+id/loginText"
+        android:layout_alignEnd="@+id/loginText" />
+
+
+</RelativeLayout>

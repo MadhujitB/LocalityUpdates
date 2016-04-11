@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/custom_my_comments_Status"
+        android:text="@string/custom_main_activity_status"
+        android:textSize="18sp"
+        android:gravity="center_vertical"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:id="@+id/custom_my_comments_Area"
+        android:text="@string/custom_main_activity_status"
+        android:textSize="12sp"
+        android:gravity="center_vertical"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:id="@+id/custom_my_comments_City"
+        android:text="@string/custom_main_activity_status"
+        android:textSize="12sp"
+        android:gravity="center_vertical"
+        />
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/custom_my_comments_Time"
+        android:text="@string/custom_main_activity_status"
+        android:maxLength="50"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:layout_gravity="end" />
+
+
+
+</LinearLayout>

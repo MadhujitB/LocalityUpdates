@@ -1,0 +1,62 @@
+<resources>
+
+    <string name="app_name">Locality Updates</string>
+
+    <string name="action_update">Update</string>
+    <string name="action_logout">Log Out</string>
+
+    <string name="login_page_title">Locality Updates</string>
+
+    <string name="my_comments_small_text">Press and hold anyone of the below rows to edit the content or delete</string>
+
+    <string name="action_spinner">Spinner</string>
+    <string name="action_change">Change City</string>
+
+    <string name="small_button">Filter</string>
+    <string name="city_change">Change City</string>
+
+    <string name="activity_registration_signup_text">Sign Up!!!</string>
+    <string name="activity_registration_reset_text">Reset!!!</string>
+
+    <string name="activity_registration_username_hint">Username</string>
+    <string name="activity_registration_email_hint">Email</string>
+
+    <string name="activity_registration_password_hint">Password</string>
+    <string name="activity_registration_confirm_password_hint">Confirm Password</string>
+
+    <string name="title_activity_login">Login Activity</string>
+    <string name="activity_login_button_login">Login!!!</string>
+
+    <string name="activity_login_button_create_acc">Register</string>
+    <string name="activity_login_middle_text">Or</string>
+
+    <string name="title_activity_update">Post An Update</string>
+    <string name="activity_update_text_box">Whats going on&#8230;</string>
+
+    <string name="activity_update_button_update">Post</string>
+    <string name="activity_status_detail">Update</string>
+    <string name="custom_main_activity_username">Username</string>
+
+    <string name="custom_main_activity_status">Status</string>
+    <string name="title_activity_status_detail">Edit Your Status</string>
+
+    <string name="title_activity_profile">Profile Activity</string>
+    <string name="title_activity_my_comments">My Statuses</string>
+
+    <string name="custom_my_comments_time">Time</string>
+    <string name="action_my_comments">My Statuses</string>
+
+
+
+
+    <string name="today">Today</string>
+    <string name="yesterday">Yesterday</string>
+
+    <string name="title_activity_main2">Main2Activity</string>
+
+
+
+
+
+
+</resources>
